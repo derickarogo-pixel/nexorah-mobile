@@ -1,0 +1,20 @@
+{
+  "name": "Nexorah Hub",
+  "short_name": "Nexorah",
+  "description": "Premium international rental listings — unlock landlord contacts directly.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#b8972a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "business"],
+  "screenshots": []
+}
