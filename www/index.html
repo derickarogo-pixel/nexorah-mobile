@@ -2,42 +2,330 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>Nexorah Hub</title>
-    <meta name="description" content="Nexorah Hub — built on Replit. Update this description to reflect the app." />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="Nexorah Hub" />
-    <meta property="og:description" content="Nexorah Hub — built on Replit. Update this description to reflect the app." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Nexorah Hub" />
-    <meta name="twitter:description" content="Nexorah Hub — built on Replit. Update this description to reflect the app." />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <link rel="manifest" href="manifest.json" />
-    <meta name="theme-color" content="#b8972a" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Nexorah Hub" />
-    <link rel="apple-touch-icon" href="icons/icon.svg" />
-    <meta name="description" content="Premium international rental listings — unlock verified landlord contacts directly." />
-    <meta property="og:title" content="Nexorah Hub — Premium Rental Listings" />
-    <meta property="og:description" content="Find luxury rentals in Dubai, London, Singapore & more. Pay once to unlock direct landlord contacts." />
-    <meta property="og:type" content="website" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="assets/index-CGgC4h3x.js"></script>
-    <link rel="stylesheet" crossorigin href="assets/index-gErnNdq7.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NEXORAH is a professional red team operations platform for ethical adversary simulation, detection validation, and security maturity assessment."
+    />
+    <title>NEXORAH | Red Team Operations Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(() => {});
-        });
-      }
-    </script>
-  <script src="https://replit-cdn.com/replit-pill/replit-pill.global.js" data-referral-code="po55xoozd3ge" data-repl-id="49c780bb-ef79-474a-80d3-dc075e7fe6e9"></script></body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="container nav-wrap">
+          <div class="brand" aria-label="NEXORAH">
+            <span class="brand-mark">N</span>
+            <span class="brand-text">NEXORAH</span>
+          </div>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="#platform">Platform</a>
+            <a href="#modules">Modules</a>
+            <a href="#workflow">Workflow</a>
+            <a href="#governance">Governance</a>
+          </nav>
+
+          <div class="nav-actions">
+            <button class="btn btn-secondary">Log in</button>
+            <button class="btn btn-primary">Request Demo</button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <span class="eyebrow">Ethical Adversary Simulation</span>
+              <h1>Professional red team operations for modern security validation.</h1>
+              <p>
+                NEXORAH helps security teams plan, execute, and govern adversary simulation
+                aligned with business risk, MITRE ATT&CK, and real-world detection engineering.
+              </p>
+
+              <div class="cta-row">
+                <button class="btn btn-primary">Book a Demo</button>
+                <button class="btn btn-secondary">Explore Platform</button>
+              </div>
+
+              <ul class="key-points" aria-label="Platform capabilities">
+                <li>Threat-informed testing</li>
+                <li>Detection validation</li>
+                <li>Executive-ready reporting</li>
+              </ul>
+            </div>
+
+            <div class="hero-panel" aria-label="Product dashboard preview">
+              <div class="panel-header">
+                <div>
+                  <p class="panel-label">Operations Dashboard</p>
+                  <h2>Active Campaign</h2>
+                </div>
+                <span class="status-dot">Live</span>
+              </div>
+
+              <div class="metric-grid">
+                <div class="metric-box accent">
+                  <span>Coverage</span>
+                  <strong>92%</strong>
+                </div>
+                <div class="metric-box">
+                  <span>Exposure</span>
+                  <strong>14</strong>
+                </div>
+                <div class="metric-box">
+                  <span>Validated</span>
+                  <strong>26</strong>
+                </div>
+                <div class="metric-box">
+                  <span>Response</span>
+                  <strong>4.2m</strong>
+                </div>
+              </div>
+
+              <div class="activity-list">
+                <div class="activity-item">
+                  <span class="activity-tag threat">Threat Intel</span>
+                  <div>
+                    <strong>Identity attack paths reviewed</strong>
+                    <small>Updated 08 mins ago</small>
+                  </div>
+                </div>
+
+                <div class="activity-item">
+                  <span class="activity-tag guard">Guardrail</span>
+                  <div>
+                    <strong>Rules of engagement approved</strong>
+                    <small>Scope validated</small>
+                  </div>
+                </div>
+
+                <div class="activity-item">
+                  <span class="activity-tag detect">Detection</span>
+                  <div>
+                    <strong>5 control gaps identified</strong>
+                    <small>Mapped to ATT&CK</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="trust-strip">
+          <div class="container trust-grid">
+            <span>MITRE ATT&CK</span>
+            <span>NIST</span>
+            <span>Detection Engineering</span>
+            <span>Cloud Security</span>
+            <span>Identity Defense</span>
+          </div>
+        </section>
+
+        <section id="platform" class="section">
+          <div class="container section-heading">
+            <span class="eyebrow">Why teams choose NEXORAH</span>
+            <h2>Built to simulate real adversary behavior with discipline and control.</h2>
+          </div>
+
+          <div class="container feature-grid">
+            <article class="feature-card">
+              <div class="icon-wrap cyan">01</div>
+              <h3>Risk-first planning</h3>
+              <p>
+                Prioritize business-critical assets and map risk scenarios to realistic attacker
+                behavior before action begins.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon-wrap purple">02</div>
+              <h3>Adversary emulation</h3>
+              <p>
+                Simulate attack paths aligned to modern threat activity, including persistence,
+                lateral movement, and privilege escalation.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon-wrap gold">03</div>
+              <h3>Detection validation</h3>
+              <p>
+                Measure whether your SOC and detection engineering teams can catch the behaviors
+                that matter most.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="icon-wrap red">04</div>
+              <h3>Executive reporting</h3>
+              <p>
+                Turn technical findings into risk narratives with prioritized recommendations for
+                leadership and remediation teams.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="modules" class="section alt-section">
+          <div class="container section-heading">
+            <span class="eyebrow">Platform modules</span>
+            <h2>Everything needed for structured, ethical security validation.</h2>
+          </div>
+
+          <div class="container modules-grid">
+            <article class="module-card">
+              <h3>Threat Intelligence & Targeting</h3>
+              <ul>
+                <li>Asset prioritization workflow</li>
+                <li>Adversary profile selection</li>
+                <li>Business-context threat mapping</li>
+              </ul>
+            </article>
+
+            <article class="module-card">
+              <h3>Reconnaissance & Exposure Review</h3>
+              <ul>
+                <li>External attack surface review</li>
+                <li>Identity and perimeter exposure scoring</li>
+                <li>Potentially exploitable pathways analysis</li>
+              </ul>
+            </article>
+
+            <article class="module-card">
+              <h3>Initial Access & Exploit Validation</h3>
+              <ul>
+                <li>Control validation workflow</li>
+                <li>Security weakness assessment</li>
+                <li>Limited-scope proof of concept tracking</li>
+              </ul>
+            </article>
+
+            <article class="module-card">
+              <h3>Persistence & Lateral Movement</h3>
+              <ul>
+                <li>Privilege path analysis</li>
+                <li>Identity traversal workflows</li>
+                <li>Detection coverage mapping</li>
+              </ul>
+            </article>
+
+            <article class="module-card">
+              <h3>Response & Detection Readiness</h3>
+              <ul>
+                <li>Alert quality scoring</li>
+                <li>Escalation review</li>
+                <li>Detection engineering feedback loops</li>
+              </ul>
+            </article>
+
+            <article class="module-card">
+              <h3>Governance & Compliance</h3>
+              <ul>
+                <li>Rules of engagement approval</li>
+                <li>Approval and audit trail</li>
+                <li>Executive reporting templates</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="workflow" class="section">
+          <div class="container section-heading">
+            <span class="eyebrow">Operational workflow</span>
+            <h2>A structured path from threat modeling to remediation.</h2>
+          </div>
+
+          <div class="container workflow">
+            <div class="workflow-step">
+              <span>01</span>
+              <h3>Scope & govern</h3>
+              <p>Set authorized boundaries, objectives, and approval workflows.</p>
+            </div>
+            <div class="workflow-step">
+              <span>02</span>
+              <h3>Assess & profile</h3>
+              <p>Prioritize targets based on business risk and likely attack paths.</p>
+            </div>
+            <div class="workflow-step">
+              <span>03</span>
+              <h3>Validate behavior</h3>
+              <p>Exercise realistic attack scenarios with detection and control validation.</p>
+            </div>
+            <div class="workflow-step">
+              <span>04</span>
+              <h3>Report & remediate</h3>
+              <p>Deliver technical and executive guidance backed by risk scoring.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="governance" class="section alt-section">
+          <div class="container governance-grid">
+            <div>
+              <span class="eyebrow">Governance-first design</span>
+              <h2>Security testing that stays aligned with policy, ethics, and accountability.</h2>
+              <ul class="check-list">
+                <li>Explicit scope and authorization controls</li>
+                <li>Audit-ready execution tracking</li>
+                <li>Safe testing guardrails and environment protections</li>
+                <li>Remediation prioritization for security leaders</li>
+              </ul>
+            </div>
+
+            <div class="security-card">
+              <div class="mini-badge">Protected</div>
+              <h3>Operational integrity</h3>
+              <p>
+                Built for enterprise security teams that need controlled adversary simulation with
+                measurable outcomes and governance support.
+              </p>
+              <div class="security-metrics">
+                <div>
+                  <strong>24/7</strong>
+                  <small>Workflow visibility</small>
+                </div>
+                <div>
+                  <strong>100%</strong>
+                  <small>Approval-aware execution</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section testimonial-section">
+          <div class="container testimonial-card">
+            <p>
+              “NEXORAH gives us a disciplined way to validate our defenses without losing sight of
+              risk, governance, and response readiness.”
+            </p>
+            <div class="author-block">
+              <strong>Security Leadership Team</strong>
+              <span>Enterprise Security Program</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-wrap">
+          <div class="brand footer-brand">
+            <span class="brand-mark">N</span>
+            <span class="brand-text">NEXORAH</span>
+          </div>
+          <p>Professional red team operations for resilient security programs.</p>
+          <a href="#" class="footer-link">Request a consultation</a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
